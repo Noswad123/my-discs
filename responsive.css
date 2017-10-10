@@ -1,0 +1,61 @@
+.mediaView{
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+  max-width: 100vw;
+}
+.container {
+  display: flex;
+  background-color: grey;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+
+}
+.pic{
+  background-color: lightblue;
+  max-height: 200px;
+}
+
+body {
+  width: 100%;
+  min-width: 300px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+}
+
+nav {
+  background-color: #b4b4b4;
+  padding: 8px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 1px 13px;
+}
+
+nav li a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and(max-width:600px) {
+  body {
+    background-color:green;
+  }
+  nav {
+    padding: none;
+  }
+  nav li {
+    display: block;
+  }
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
