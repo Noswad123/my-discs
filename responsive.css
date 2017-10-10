@@ -24,10 +24,15 @@ body {
   margin: 0 auto;
   background: white;
 }
+#portfolio{
+  float:right;
+}
 
 nav {
   background-color: #b4b4b4;
   padding: 8px;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 nav li {
